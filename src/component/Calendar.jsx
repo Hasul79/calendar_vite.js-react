@@ -31,8 +31,7 @@ const Calendar = () => {
             <Badge
               key={day.toString()}
               overlap='circular'
-              badgeContent={isSelected ? <CheckIcon color='red' /> : undefined}
-            >
+              badgeContent={isSelected ? <CheckIcon color='red' /> : undefined} >
               <PickersDay {...DayComponentProps} />
             </Badge>
           );
